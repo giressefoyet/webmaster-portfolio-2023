@@ -1,0 +1,140 @@
+/* Global styles */
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.titre {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Main content grid */
+main {
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: 33% 67%;
+    grid-gap: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Left side styles */
+.partie_gauche {
+    background-color: aquamarine;
+}
+
+.image_bb {
+    position: relative;
+}
+
+.image_bb img {
+    width: 100%;
+}
+
+.image_bb h1 {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    background-color: black;
+    opacity: 40%;
+    border: 1px solid black;
+}
+
+.infos_personnel, .competence, .langue {
+    padding: 1rem;
+    line-height: 2;
+}
+
+/* Right side styles */
+.experience, .formation {
+    background-color: white;
+    line-height: 2;
+    padding: 1.5rem;
+}
+
+.actuel {
+    background-color: aquamarine;
+    color: rgb(77, 18, 172);
+    padding: 0.3rem;
+    border-radius: 7px;
+}
+
+.date {
+    color: red;
+}
+
+.experience ul, .formation ul {
+    margin: 2rem 0;
+}
+
+.formation {
+    margin-top: 1.5rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: aquamarine;
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.competence ul li, .langue ul li {
+    display: flex;
+}
+
+progress {
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    /* Stack columns on smaller screens */
+    main {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .image_bb h1 {
+        font-size: 24px;
+    }
+
+    .competence ul li, .langue ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    progress {
+        width: 100%;
+        margin-left: 0;
+        height: 1.5rem;
+    }
+
+    .titre h2 {
+        font-size: 18px;
+    }
+
+    .titre h3 {
+        font-size: 16px;
+    }
+
+    .titre div {
+        font-size: 14px;
+    }
+}
