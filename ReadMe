@@ -1,35 +1,35 @@
-### README PORTFOLIO 
+README PORTFOLIO 
 
-# Site Mono Page Portfolio - Projet Étudiant
+Site Mono Page Portfolio - Projet Étudiant
 
-## Description
-Ce projet est un portfolio **One Page** réalisé avec les étudiants du parcours **Webmaster** à **l'Institut Des Métiers de l'Emploi (IPME - GENITECH)**. Le site présente de manière concise et élégante les informations essentielles d'un professionnel, telles que ses compétences, ses expériences et sa formation, en utilisant les technologies HTML5 et CSS3.
+I. Description
+Ce projet est un portfolio One Page réalisé avec les étudiants du parcours Webmaster à l'Institut Des Métiers de l'Emploi (IPME - GENITECH). Le site présente de manière concise et élégante les informations essentielles d'un professionnel, telles que ses compétences, ses expériences et sa formation, en utilisant les technologies HTML5 et CSS3.
 
-## Fonctionnalités
-- **One Page Design** : Toutes les sections (informations personnelles, compétences, expériences, formation) sont accessibles sur une seule page.
-- **Compétences** : Indicateurs de niveau pour chaque compétence technique.
-- **Expériences professionnelles et formation** : Présentation claire avec dates et descriptions.
-- **Liens vers les réseaux sociaux** : Icônes cliquables pour accéder aux profils sociaux.
-- **Responsive design** : Adapté pour les écrans de toutes tailles (desktop, tablette, mobile).
+II. Fonctionnalités
+- One Page Design : Toutes les sections (informations personnelles, compétences, expériences, formation) sont accessibles sur une seule page.
+- Compétences : Indicateurs de niveau pour chaque compétence technique.
+- Expériences professionnelles et formation : Présentation claire avec dates et descriptions.
+- Liens vers les réseaux sociaux : Icônes cliquables pour accéder aux profils sociaux.
+- Responsive design : Adapté pour les écrans de toutes tailles (desktop, tablette, mobile).
 
-## Technologies Utilisées
-- **HTML5** : Pour structurer le contenu de la page.
-- **CSS3** : Pour le style, la mise en page et le design responsive.
+III. Technologies Utilisées
+- HTML5 : Pour structurer le contenu de la page.
+- CSS3 : Pour le style, la mise en page et le design responsive.
 
-## Capture d'Écran : Aperçu du Portfolio
+III. Capture d'Écran : Aperçu du Portfolio
 
 ![alt text](image.png)
 
-## Installation
+IV. Installation
 Pour visualiser ce projet localement, suivez les étapes ci-dessous :
 
 1. Clonez le dépôt : git clone https://github.com/giressefoyet/webmaster-portfolio-2023.git
    
 2. Ouvrez le fichier `index.html` dans votre navigateur.
 
-## Auteur
+V. Auteur
 Projet réalisé sous la supervision de **Giresse FOYET**, enseignant en développement web.
 
-## License
+License
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
